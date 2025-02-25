@@ -2,7 +2,7 @@ import asyncio
 import logging
 from aiogram import Bot, Dispatcher
 from config import BOT_TOKEN
-from handlers import router
+from handlers.handlers import router
 
 async def main():
     # Включаем логирование
