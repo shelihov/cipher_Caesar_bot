@@ -3,10 +3,21 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMar
 # Основная клавиатура
 main_kb = ReplyKeyboardMarkup(
     keyboard=[
-        [KeyboardButton(text="Меню 1"), KeyboardButton(text="Меню 2")],
-        [KeyboardButton(text="Помощь")]
+        [KeyboardButton(text="Шифрование"), KeyboardButton(text="Дешифрование")],
+        #[KeyboardButton(text="Помощь")]
     ],
-    resize_keyboard=True
+    resize_keyboard=True,
+    one_time_keyboard=True
+)
+
+# Клавиатура языка
+language_kb = ReplyKeyboardMarkup(
+    keyboard=[
+        [KeyboardButton(text="Русский"), KeyboardButton(text="Английский")],
+        #[KeyboardButton(text="Помощь")]
+    ],
+    resize_keyboard=True,
+    one_time_keyboard=True
 )
 
 # Инлайн клавиатура (пример)
