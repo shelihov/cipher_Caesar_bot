@@ -3,7 +3,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMar
 # Основная клавиатура
 main_kb = ReplyKeyboardMarkup(
     keyboard=[
-        [KeyboardButton(text="Шифрование"), KeyboardButton(text="Дешифрование")],
+        [KeyboardButton(text="Шифрование🔐"), KeyboardButton(text="Дешифрование🔓")],
         #[KeyboardButton(text="Помощь")]
     ],
     resize_keyboard=True,
@@ -13,7 +13,7 @@ main_kb = ReplyKeyboardMarkup(
 # Клавиатура языка
 language_kb = ReplyKeyboardMarkup(
     keyboard=[
-        [KeyboardButton(text="Русский"), KeyboardButton(text="Английский")],
+        [KeyboardButton(text="Русский🇷🇺"), KeyboardButton(text="Английский🇺🇲")],
         #[KeyboardButton(text="Помощь")]
     ],
     resize_keyboard=True,
