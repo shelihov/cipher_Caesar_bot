@@ -19,11 +19,3 @@ language_kb = ReplyKeyboardMarkup(
     resize_keyboard=True,
     one_time_keyboard=True
 )
-
-# Инлайн клавиатура (пример)
-inline_kb = InlineKeyboardMarkup(
-    inline_keyboard=[
-        [InlineKeyboardButton(text="Кнопка 1", callback_data="button1")],
-        [InlineKeyboardButton(text="Кнопка 2", callback_data="button2")]
-    ]
-) 

@@ -45,7 +45,7 @@ async def process_choise_digit(message: Message):
     user_id = message.from_user.id
     choice_digit_user = message.text
     user_data[user_id]['choice_digit'] = choice_digit_user
-    await message.answer(f'Вы выбрали шаг сдвига: {choice_digit_user}\n\nОтправьте сообщение для шифрования:')
+    await message.answer(f'Вы выбрали шаг сдвига: {choice_digit_user}\n\nОтправьте ваш текст:')
 
 eng_lower_alphabet = 'abcdefghijklmnopqrstuvwxyz'
 eng_upper_alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
